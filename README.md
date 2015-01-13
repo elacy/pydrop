@@ -2,11 +2,11 @@
 A KISS submission system written in python for use with wsgi.
 
 ###Requirements
-Python (I used 2.6)
-Some httpd (I used apache)
-WSGI (I used mod_wsgi for apache)
-PyCrypto - https://www.dlitz.net/software/pycrypto/
-python-gnupg - http://code.google.com/p/python-gnupg/
+ * Python (I used 2.6)
+ * Some httpd (I used apache)
+ * WSGI (I used mod_wsgi for apache)
+ * PyCrypto - https://www.dlitz.net/software/pycrypto/
+ * python-gnupg - http://code.google.com/p/python-gnupg/
 
 ###How it works
 WSGI calls the application function in pydrop.wsgi passing the environ variable et al whenever a 
